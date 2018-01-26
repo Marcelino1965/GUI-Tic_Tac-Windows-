@@ -1,0 +1,299 @@
+Public Class Form1
+    Dim turn As Integer = 1
+    Dim chance As Integer = 0
+
+    Private Sub B1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles B1.Click
+        If B1.Text = "-" Then
+            chance += 1
+            schance.Text = chance
+            If turn = 1 Then
+                B1.Text = "X"
+                B1.BackColor = Color.Red
+                turn = 2
+                check()
+            Else
+                B1.Text = "O"
+                B1.BackColor = Color.Green
+                turn = 1
+                check()
+            End If
+        Else
+            MessageBox.Show("It's Alreday Used")
+        End If
+        If chance = 9 Then
+            MessageBox.Show("******* Match Is Draw... *******")
+            fill()
+        End If
+    End Sub
+
+    Private Sub B2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles B2.Click
+        If B2.Text = "-" Then
+            chance += 1
+            schance.Text = chance
+            If turn = 1 Then
+                B2.Text = "X"
+                B2.BackColor = Color.Red
+                turn = 2
+                check()
+            Else
+                B2.Text = "O"
+                B2.BackColor = Color.Green
+                turn = 1
+                check()
+            End If
+        Else
+            MessageBox.Show("It's Alreday Used")
+        End If
+        If chance = 9 Then
+            MessageBox.Show("******* Match Is Draw... *******")
+            fill()
+        End If
+    End Sub
+
+    Private Sub B3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles B3.Click
+        If B3.Text = "-" Then
+            chance += 1
+            schance.Text = chance
+            If turn = 1 Then
+                B3.Text = "X"
+                B3.BackColor = Color.Red
+                turn = 2
+                check()
+            Else
+                B3.Text = "O"
+                B3.BackColor = Color.Green
+                turn = 1
+                check()
+            End If
+        Else
+            MessageBox.Show("It's Alreday Used")
+        End If
+        If chance = 9 Then
+            MessageBox.Show("******* Match Is Draw... *******")
+            fill()
+        End If
+    End Sub
+
+    Private Sub B4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles B4.Click
+        If B4.Text = "-" Then
+            chance += 1
+            schance.Text = chance
+            If turn = 1 Then
+                B4.Text = "X"
+                B4.BackColor = Color.Red
+                turn = 2
+                check()
+            Else
+                B4.Text = "O"
+                B4.BackColor = Color.Green
+                turn = 1
+                check()
+            End If
+        Else
+            MessageBox.Show("It's Alreday Used")
+        End If
+        If chance = 9 Then
+            MessageBox.Show("******* Match Is Draw... *******")
+            fill()
+        End If
+    End Sub
+
+    Private Sub B5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles B5.Click
+        If B5.Text = "-" Then
+            chance += 1
+            schance.Text = chance
+            If turn = 1 Then
+                B5.Text = "X"
+                B5.BackColor = Color.Red
+                turn = 2
+                check()
+            Else
+                B5.Text = "O"
+                B5.BackColor = Color.Green
+                turn = 1
+                check()
+            End If
+        Else
+            MessageBox.Show("It's Alreday Used")
+        End If
+        If chance = 9 Then
+            MessageBox.Show("******* Match Is Draw... *******")
+            fill()
+        End If
+    End Sub
+
+    Private Sub B6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles B6.Click
+        If B6.Text = "-" Then
+            chance += 1
+            schance.Text = chance
+            If turn = 1 Then
+                B6.Text = "X"
+                B6.BackColor = Color.Red
+                turn = 2
+                check()
+            Else
+                B6.Text = "O"
+                B6.BackColor = Color.Green
+                turn = 1
+                check()
+            End If
+        Else
+            MessageBox.Show("It's Alreday Used")
+        End If
+        If chance = 9 Then
+            MessageBox.Show("******* Match Is Draw... *******")
+            fill()
+        End If
+    End Sub
+
+    Private Sub B7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles B7.Click
+        If B7.Text = "-" Then
+            chance += 1
+            schance.Text = chance
+            If turn = 1 Then
+                B7.Text = "X"
+                B7.BackColor = Color.Red
+                turn = 2
+                check()
+            Else
+                B7.Text = "O"
+                B7.BackColor = Color.Green
+                turn = 1
+                check()
+            End If
+        Else
+            MessageBox.Show("It's Alreday Used")
+        End If
+        If chance = 9 Then
+            MessageBox.Show("******* Match Is Draw... *******")
+            fill()
+        End If
+    End Sub
+
+    Private Sub B8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles B8.Click
+        If B8.Text = "-" Then
+            chance += 1
+            schance.Text = chance
+            If turn = 1 Then
+                B8.Text = "X"
+                B8.BackColor = Color.Red
+                turn = 2
+                check()
+            Else
+                B8.Text = "O"
+                B8.BackColor = Color.Green
+                turn = 1
+                check()
+            End If
+        Else
+            MessageBox.Show("It's Alreday Used")
+        End If
+        If chance = 9 Then
+            MessageBox.Show("******* Match Is Draw... *******")
+            fill()
+        End If
+    End Sub
+
+    Private Sub B9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles B9.Click
+        If B9.Text = "-" Then
+            chance += 1
+            schance.Text = chance
+            If turn = 1 Then
+                B9.Text = "X"
+                B9.BackColor = Color.Red
+                turn = 2
+                check()
+            Else
+                B9.Text = "O"
+                B9.BackColor = Color.Green
+                turn = 1
+                check()
+            End If
+        Else
+            MessageBox.Show("It's Alreday Used")
+        End If
+        If chance = 9 Then
+            MessageBox.Show("******* Match Is Draw... *******")
+            fill()
+        End If
+    End Sub
+
+    Private Sub Breset_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Breset.Click
+        fill()
+    End Sub
+    Private Sub check()
+        If B1.Text = "X" And B2.Text = "X" And B3.Text = "X" Then
+            MessageBox.Show("*** X Wins ***")
+            fill()
+        ElseIf B4.Text = "X" And B5.Text = "X" And B6.Text = "X" Then
+            MessageBox.Show("*** X Wins ***")
+            fill()
+        ElseIf B7.Text = "X" And B8.Text = "X" And B9.Text = "X" Then
+            MessageBox.Show("*** X Wins ***")
+            fill()
+        ElseIf B1.Text = "X" And B4.Text = "X" And B7.Text = "X" Then
+            MessageBox.Show("*** X Wins ***")
+            fill()
+        ElseIf B2.Text = "X" And B5.Text = "X" And B8.Text = "X" Then
+            MessageBox.Show("*** X Wins ***")
+            fill()
+        ElseIf B3.Text = "X" And B6.Text = "X" And B9.Text = "X" Then
+            MessageBox.Show("*** X Wins ***")
+            fill()
+        ElseIf B1.Text = "X" And B5.Text = "X" And B9.Text = "X" Then
+            MessageBox.Show("*** X Wins ***")
+            fill()
+        ElseIf B3.Text = "X" And B5.Text = "X" And B7.Text = "X" Then
+            MessageBox.Show("*** X Wins ***")
+            fill()
+        ElseIf B1.Text = "O" And B2.Text = "O" And B3.Text = "O" Then
+            MessageBox.Show("*** O Wins ***")
+            fill()
+        ElseIf B4.Text = "O" And B5.Text = "O" And B6.Text = "O" Then
+            MessageBox.Show("*** O Wins ***")
+            fill()
+        ElseIf B7.Text = "O" And B8.Text = "O" And B9.Text = "O" Then
+            MessageBox.Show("*** O Wins ***")
+            fill()
+        ElseIf B1.Text = "O" And B4.Text = "O" And B7.Text = "O" Then
+            MessageBox.Show("*** O Wins ***")
+            fill()
+        ElseIf B2.Text = "O" And B5.Text = "O" And B8.Text = "O" Then
+            MessageBox.Show("*** O Wins ***")
+            fill()
+        ElseIf B3.Text = "O" And B6.Text = "O" And B9.Text = "O" Then
+            MessageBox.Show("*** O Wins ***")
+            fill()
+        ElseIf B1.Text = "O" And B5.Text = "O" And B9.Text = "O" Then
+            MessageBox.Show("*** O Wins ***")
+            fill()
+        ElseIf B3.Text = "O" And B5.Text = "O" And B7.Text = "O" Then
+            MessageBox.Show("*** O Wins ***")
+            fill()
+        End If
+    End Sub
+
+    Private Sub fill()
+        B1.Text = "-"
+        B1.BackColor = Color.White
+        B2.Text = "-"
+        B2.BackColor = Color.White
+        B3.Text = "-"
+        B3.BackColor = Color.White
+        B4.Text = "-"
+        B4.BackColor = Color.White
+        B5.Text = "-"
+        B5.BackColor = Color.White
+        B6.Text = "-"
+        B6.BackColor = Color.White
+        B7.Text = "-"
+        B7.BackColor = Color.White
+        B8.Text = "-"
+        B8.BackColor = Color.White
+        B9.Text = "-"
+        B9.BackColor = Color.White
+        turn = 1
+        chance = 0
+        schance.Text = chance
+    End Sub
+End Class
